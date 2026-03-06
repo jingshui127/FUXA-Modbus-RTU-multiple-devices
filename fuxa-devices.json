@@ -1,0 +1,2514 @@
+[
+  {
+    "id": "0",
+    "name": "FuxaServer",
+    "type": "FuxaServer",
+    "property": {
+      "address": "0.0.0.0"
+    },
+    "enabled": true,
+    "tags": {
+      "t_ae209c3c-85de470f": {
+        "id": "t_ae209c3c-85de470f",
+        "name": "Device A Connection Status",
+        "label": "Device A Connection Status",
+        "value": "",
+        "type": "number",
+        "memaddress": "3c4cbe6a-108b-4472-8600-2ac4a9f171f7",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "init": "",
+        "sysType": 1
+      },
+      "t_d7d680e9-31704f5a": {
+        "id": "t_d7d680e9-31704f5a",
+        "name": "TRU1 Connection Status",
+        "label": "TRU1 Connection Status",
+        "value": "",
+        "type": "number",
+        "memaddress": "d_a408f75d-52a54510",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "init": "",
+        "sysType": 1
+      },
+      "t_b722c7ed-22b74ea9": {
+        "id": "t_b722c7ed-22b74ea9",
+        "name": "RTU2 Connection Status",
+        "label": "RTU2 Connection Status",
+        "value": "",
+        "type": "number",
+        "memaddress": "d_409c3014-54d94eed",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "init": "",
+        "sysType": 1
+      },
+      "t_2c59a4b9-4da34d4e": {
+        "id": "t_2c59a4b9-4da34d4e",
+        "name": "RTU1 Connection Status",
+        "label": "RTU1 Connection Status",
+        "value": "",
+        "type": "number",
+        "memaddress": "d_5191b50b-19a34788",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "init": "",
+        "sysType": 1
+      },
+      "t_fc20af6f-3fc84978": {
+        "id": "t_fc20af6f-3fc84978",
+        "name": "RTU2 Connection Status",
+        "label": "RTU2 Connection Status",
+        "value": "",
+        "type": "number",
+        "memaddress": "d_5bb870d4-56394c4b",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "init": "",
+        "sysType": 1
+      },
+      "t_6bc93797-4620490d": {
+        "id": "t_6bc93797-4620490d",
+        "name": "ModbusRTU1 Connection Status",
+        "label": "ModbusRTU1 Connection Status",
+        "value": "",
+        "type": "number",
+        "memaddress": "d_6f04d20e-9f144241",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "init": "",
+        "sysType": 1
+      },
+      "t_f9d14047-6e864cc7": {
+        "id": "t_f9d14047-6e864cc7",
+        "name": "ModbusRTU2 Connection Status",
+        "label": "ModbusRTU2 Connection Status",
+        "value": "",
+        "type": "number",
+        "memaddress": "d_7db11b5e-f80540fc",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "init": "",
+        "sysType": 1
+      },
+      "t_6ebe1a92-bcbb4baf": {
+        "id": "t_6ebe1a92-bcbb4baf",
+        "name": "RTU3 Connection Status",
+        "label": "RTU3 Connection Status",
+        "value": "",
+        "type": "number",
+        "memaddress": "d_4b526341-893d4393",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "init": "",
+        "sysType": 1
+      },
+      "t_893effcf-03554f6b": {
+        "id": "t_893effcf-03554f6b",
+        "name": "S7-1200 Connection Status",
+        "label": "S7-1200 Connection Status",
+        "value": "",
+        "type": "number",
+        "memaddress": "d_0947f9ee-d6ef48f8",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "init": "",
+        "sysType": 1
+      }
+    },
+    "polling": 1000
+  },
+  {
+    "id": "d_6f04d20e-9f144241",
+    "name": "ModbusRTU1",
+    "enabled": true,
+    "property": {
+      "address": "COM20",
+      "port": null,
+      "slot": null,
+      "rack": null,
+      "slaveid": "1",
+      "baudrate": 9600,
+      "databits": 8,
+      "stopbits": 1,
+      "parity": "None",
+      "connectionOption": "SerialPort",
+      "delay": 10,
+      "forceFC16": false,
+      "options": true,
+      "socketReuse": "ReuseSerial"
+    },
+    "type": "ModbusRTU",
+    "polling": 1000,
+    "tags": {
+      "t_test_int16_01": {
+        "id": "t_test_int16_01",
+        "name": "Test_Int16_1.1",
+        "type": "Int16",
+        "memaddress": "400000",
+        "address": "1.1",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Int16类型 - 从站1地址1",
+        "value": 14,
+        "timestamp": 1772711339280
+      },
+      "t_test_int32_01": {
+        "id": "t_test_int32_01",
+        "name": "Test_Int32_1.2",
+        "type": "Int32",
+        "memaddress": "400000",
+        "address": "1.2",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Int32类型 - 从站1地址2",
+        "value": 123456889,
+        "timestamp": 1772711339280
+      },
+      "t_test_uint32_01": {
+        "id": "t_test_uint32_01",
+        "name": "Test_UInt32_1.4",
+        "type": "UInt32",
+        "memaddress": "400000",
+        "address": "1.4",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试UInt32类型 - 从站1地址4",
+        "value": 4000000300,
+        "timestamp": 1772711339280
+      },
+      "t_test_float32_01": {
+        "id": "t_test_float32_01",
+        "name": "Test_Float32_1.6",
+        "type": "Float32",
+        "memaddress": "400000",
+        "address": "1.6",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Float32类型 - 从站1地址6",
+        "value": 128.45599365234375,
+        "timestamp": 1772711339280
+      },
+      "t_test_float64_01": {
+        "id": "t_test_float64_01",
+        "name": "Test_Float64_1.8",
+        "type": "Float64",
+        "memaddress": "400000",
+        "address": "1.8",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Float64类型 - 从站1地址8",
+        "value": 1.3413869599786011e-306,
+        "timestamp": 1772711339280
+      },
+      "t_test_int64_01": {
+        "id": "t_test_int64_01",
+        "name": "Test_Int64_1.12",
+        "type": "Int64",
+        "memaddress": "400000",
+        "address": "1.12",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Int64类型 - 从站1地址12",
+        "value": 1000000001100,
+        "timestamp": 1772711339280
+      },
+      "t_test_int16le_01": {
+        "id": "t_test_int16le_01",
+        "name": "Test_Int16LE_1.16",
+        "type": "Int16LE",
+        "memaddress": "400000",
+        "address": "1.16",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Int16LE类型(小端) - 从站1地址16",
+        "value": 13845,
+        "timestamp": 1772711339280
+      },
+      "t_test_uint32le_01": {
+        "id": "t_test_uint32le_01",
+        "name": "Test_UInt32LE_1.17",
+        "type": "UInt32LE",
+        "memaddress": "400000",
+        "address": "1.17",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试UInt32LE类型(小端) - 从站1地址17",
+        "value": 4000001600,
+        "timestamp": 1772711339280
+      },
+      "t_test_float32le_01": {
+        "id": "t_test_float32le_01",
+        "name": "Test_Float32LE_1.19",
+        "type": "Float32LE",
+        "memaddress": "400000",
+        "address": "1.19",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Float32LE类型(小端) - 从站1地址19",
+        "value": 141.45599365234375,
+        "timestamp": 1772711339280
+      },
+      "t_test_float64le_01": {
+        "id": "t_test_float64le_01",
+        "name": "Test_Float64LE_1.21",
+        "type": "Float64LE",
+        "memaddress": "400000",
+        "address": "1.21",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Float64LE类型(小端) - 从站1地址21",
+        "value": 123476.789012345,
+        "timestamp": 1772711339280
+      },
+      "t_test_int64le_01": {
+        "id": "t_test_int64le_01",
+        "name": "Test_Int64LE_1.25",
+        "type": "Int64LE",
+        "memaddress": "400000",
+        "address": "1.25",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Int64LE类型(小端) - 从站1地址25",
+        "value": 1000000002400,
+        "timestamp": 1772711339280
+      },
+      "t_test_float64mle_01": {
+        "id": "t_test_float64mle_01",
+        "name": "Test_Float64MLE_1.29",
+        "type": "Float64MLE",
+        "memaddress": "400000",
+        "address": "1.29",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Float64MLE类型(Modbus序) - 从站1地址29",
+        "value": 1.3043374404216428e-126,
+        "timestamp": 1772711339280
+      },
+      "t_test_int32mle_01": {
+        "id": "t_test_int32mle_01",
+        "name": "Test_Int32MLE_1.33",
+        "type": "Int32MLE",
+        "memaddress": "400000",
+        "address": "1.33",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Int32MLE类型(Modbus序) - 从站1地址33",
+        "value": 123459989,
+        "timestamp": 1772711339280
+      },
+      "t_test_float32mle_01": {
+        "id": "t_test_float32mle_01",
+        "name": "Test_Float32MLE_1.35",
+        "type": "Float32MLE",
+        "memaddress": "400000",
+        "address": "1.35",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Float32MLE类型(Modbus序) - 从站1地址35",
+        "value": 157.45599365234375,
+        "timestamp": 1772711339280
+      },
+      "t_test_uint32mle_01": {
+        "id": "t_test_uint32mle_01",
+        "name": "Test_UInt32MLE_1.37",
+        "type": "UInt32MLE",
+        "memaddress": "400000",
+        "address": "1.37",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试UInt32MLE类型(Modbus序) - 从站1地址37",
+        "value": 4000003600,
+        "timestamp": 1772711339280
+      },
+      "t_test_int16_02": {
+        "id": "t_test_int16_02",
+        "name": "Test_Int16_2.1",
+        "type": "Int16",
+        "memaddress": "400000",
+        "address": "2.1",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Int16类型 - 从站2地址1",
+        "value": 21,
+        "timestamp": 1772711339280
+      },
+      "t_test_int32_02": {
+        "id": "t_test_int32_02",
+        "name": "Test_Int32_2.2",
+        "type": "Int32",
+        "memaddress": "400000",
+        "address": "2.2",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Int32类型 - 从站2地址2",
+        "value": 123456889,
+        "timestamp": 1772711339280
+      },
+      "t_test_uint32_02": {
+        "id": "t_test_uint32_02",
+        "name": "Test_UInt32_2.4",
+        "type": "UInt32",
+        "memaddress": "400000",
+        "address": "2.4",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试UInt32类型 - 从站2地址4",
+        "value": 4000000300,
+        "timestamp": 1772711339280
+      },
+      "t_test_float32_02": {
+        "id": "t_test_float32_02",
+        "name": "Test_Float32_2.6",
+        "type": "Float32",
+        "memaddress": "400000",
+        "address": "2.6",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Float32类型 - 从站2地址6",
+        "value": 128.45599365234375,
+        "timestamp": 1772711339280
+      },
+      "t_test_float64_02": {
+        "id": "t_test_float64_02",
+        "name": "Test_Float64_2.8",
+        "type": "Float64",
+        "memaddress": "400000",
+        "address": "2.8",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Float64类型 - 从站2地址8",
+        "value": 2.148756193915474e-306,
+        "timestamp": 1772711339280
+      },
+      "t_test_int64_02": {
+        "id": "t_test_int64_02",
+        "name": "Test_Int64_2.12",
+        "type": "Int64",
+        "memaddress": "400000",
+        "address": "2.12",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Int64类型 - 从站2地址12",
+        "value": 1000000001100,
+        "timestamp": 1772711339280
+      },
+      "t_test_int16le_02": {
+        "id": "t_test_int16le_02",
+        "name": "Test_Int16LE_2.16",
+        "type": "Int16LE",
+        "memaddress": "400000",
+        "address": "2.16",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Int16LE类型(小端) - 从站2地址16",
+        "value": 13845,
+        "timestamp": 1772711339280
+      },
+      "t_test_uint32le_02": {
+        "id": "t_test_uint32le_02",
+        "name": "Test_UInt32LE_2.17",
+        "type": "UInt32LE",
+        "memaddress": "400000",
+        "address": "2.17",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试UInt32LE类型(小端) - 从站2地址17",
+        "value": 4000001600,
+        "timestamp": 1772711339280
+      },
+      "t_test_float32le_02": {
+        "id": "t_test_float32le_02",
+        "name": "Test_Float32LE_2.19",
+        "type": "Float32LE",
+        "memaddress": "400000",
+        "address": "2.19",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Float32LE类型(小端) - 从站2地址19",
+        "value": 141.45599365234375,
+        "timestamp": 1772711339280
+      },
+      "t_test_float64le_02": {
+        "id": "t_test_float64le_02",
+        "name": "Test_Float64LE_2.21",
+        "type": "Float64LE",
+        "memaddress": "400000",
+        "address": "2.21",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Float64LE类型(小端) - 从站2地址21",
+        "value": 123476.789012345,
+        "timestamp": 1772711339280
+      },
+      "t_test_int64le_02": {
+        "id": "t_test_int64le_02",
+        "name": "Test_Int64LE_2.25",
+        "type": "Int64LE",
+        "memaddress": "400000",
+        "address": "2.25",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Int64LE类型(小端) - 从站2地址25",
+        "value": 1000000002400,
+        "timestamp": 1772711339280
+      },
+      "t_test_float64mle_02": {
+        "id": "t_test_float64mle_02",
+        "name": "Test_Float64MLE_2.29",
+        "type": "Float64MLE",
+        "memaddress": "400000",
+        "address": "2.29",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Float64MLE类型(Modbus序) - 从站2地址29",
+        "value": 1.3043374404216428e-126,
+        "timestamp": 1772711339280
+      },
+      "t_test_int32mle_02": {
+        "id": "t_test_int32mle_02",
+        "name": "Test_Int32MLE_2.33",
+        "type": "Int32MLE",
+        "memaddress": "400000",
+        "address": "2.33",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Int32MLE类型(Modbus序) - 从站2地址33",
+        "value": 123459989,
+        "timestamp": 1772711339280
+      },
+      "t_test_float32mle_02": {
+        "id": "t_test_float32mle_02",
+        "name": "Test_Float32MLE_2.35",
+        "type": "Float32MLE",
+        "memaddress": "400000",
+        "address": "2.35",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Float32MLE类型(Modbus序) - 从站2地址35",
+        "value": 157.45599365234375,
+        "timestamp": 1772711339280
+      },
+      "t_test_uint32mle_02": {
+        "id": "t_test_uint32mle_02",
+        "name": "Test_UInt32MLE_2.37",
+        "type": "UInt32MLE",
+        "memaddress": "400000",
+        "address": "2.37",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试UInt32MLE类型(Modbus序) - 从站2地址37",
+        "value": 4000003600,
+        "timestamp": 1772711339280
+      },
+      "t_test_int16_03": {
+        "id": "t_test_int16_03",
+        "name": "Test_Int16_3.1",
+        "type": "Int16",
+        "memaddress": "400000",
+        "address": "3.1",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Int16类型 - 从站3地址1",
+        "value": 39,
+        "timestamp": 1772711339280
+      },
+      "t_test_int32_03": {
+        "id": "t_test_int32_03",
+        "name": "Test_Int32_3.2",
+        "type": "Int32",
+        "memaddress": "400000",
+        "address": "3.2",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Int32类型 - 从站3地址2",
+        "value": 123456889,
+        "timestamp": 1772711339280
+      },
+      "t_test_uint32_03": {
+        "id": "t_test_uint32_03",
+        "name": "Test_UInt32_3.4",
+        "type": "UInt32",
+        "memaddress": "400000",
+        "address": "3.4",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试UInt32类型 - 从站3地址4",
+        "value": 4000000300,
+        "timestamp": 1772711339280
+      },
+      "t_test_float32_03": {
+        "id": "t_test_float32_03",
+        "name": "Test_Float32_3.6",
+        "type": "Float32",
+        "memaddress": "400000",
+        "address": "3.6",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Float32类型 - 从站3地址6",
+        "value": 128.45599365234375,
+        "timestamp": 1772711339280
+      },
+      "t_test_float64_03": {
+        "id": "t_test_float64_03",
+        "name": "Test_Float64_3.8",
+        "type": "Float64",
+        "memaddress": "400000",
+        "address": "3.8",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Float64类型 - 从站3地址8",
+        "value": 3.229476935747491e-306,
+        "timestamp": 1772711339280
+      },
+      "t_test_int64_03": {
+        "id": "t_test_int64_03",
+        "name": "Test_Int64_3.12",
+        "type": "Int64",
+        "memaddress": "400000",
+        "address": "3.12",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Int64类型 - 从站3地址12",
+        "value": 1000000001100,
+        "timestamp": 1772711339280
+      },
+      "t_test_int16le_03": {
+        "id": "t_test_int16le_03",
+        "name": "Test_Int16LE_3.16",
+        "type": "Int16LE",
+        "memaddress": "400000",
+        "address": "3.16",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Int16LE类型(小端) - 从站3地址16",
+        "value": 13845,
+        "timestamp": 1772711339280
+      },
+      "t_test_uint32le_03": {
+        "id": "t_test_uint32le_03",
+        "name": "Test_UInt32LE_3.17",
+        "type": "UInt32LE",
+        "memaddress": "400000",
+        "address": "3.17",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试UInt32LE类型(小端) - 从站3地址17",
+        "value": 4000001600,
+        "timestamp": 1772711339280
+      },
+      "t_test_float32le_03": {
+        "id": "t_test_float32le_03",
+        "name": "Test_Float32LE_3.19",
+        "type": "Float32LE",
+        "memaddress": "400000",
+        "address": "3.19",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Float32LE类型(小端) - 从站3地址19",
+        "value": 141.45599365234375,
+        "timestamp": 1772711339280
+      },
+      "t_test_float64le_03": {
+        "id": "t_test_float64le_03",
+        "name": "Test_Float64LE_3.21",
+        "type": "Float64LE",
+        "memaddress": "400000",
+        "address": "3.21",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Float64LE类型(小端) - 从站3地址21",
+        "value": 123476.789012345,
+        "timestamp": 1772711339280
+      },
+      "t_test_int64le_03": {
+        "id": "t_test_int64le_03",
+        "name": "Test_Int64LE_3.25",
+        "type": "Int64LE",
+        "memaddress": "400000",
+        "address": "3.25",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Int64LE类型(小端) - 从站3地址25",
+        "value": 1000000002400,
+        "timestamp": 1772711339280
+      },
+      "t_test_float64mle_03": {
+        "id": "t_test_float64mle_03",
+        "name": "Test_Float64MLE_3.29",
+        "type": "Float64MLE",
+        "memaddress": "400000",
+        "address": "3.29",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Float64MLE类型(Modbus序) - 从站3地址29",
+        "value": 1.3043374404216428e-126,
+        "timestamp": 1772711339280
+      },
+      "t_test_int32mle_03": {
+        "id": "t_test_int32mle_03",
+        "name": "Test_Int32MLE_3.33",
+        "type": "Int32MLE",
+        "memaddress": "400000",
+        "address": "3.33",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Int32MLE类型(Modbus序) - 从站3地址33",
+        "value": 123459989,
+        "timestamp": 1772711339280
+      },
+      "t_test_float32mle_03": {
+        "id": "t_test_float32mle_03",
+        "name": "Test_Float32MLE_3.35",
+        "type": "Float32MLE",
+        "memaddress": "400000",
+        "address": "3.35",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Float32MLE类型(Modbus序) - 从站3地址35",
+        "value": 157.45599365234375,
+        "timestamp": 1772711339280
+      },
+      "t_test_uint32mle_03": {
+        "id": "t_test_uint32mle_03",
+        "name": "Test_UInt32MLE_3.37",
+        "type": "UInt32MLE",
+        "memaddress": "400000",
+        "address": "3.37",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试UInt32MLE类型(Modbus序) - 从站3地址37",
+        "value": 4000003600,
+        "timestamp": 1772711339280
+      },
+      "t_test_int16_04": {
+        "id": "t_test_int16_04",
+        "name": "Test_Int16_4.1",
+        "type": "Int16",
+        "memaddress": "400000",
+        "address": "4.1",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Int16类型 - 从站4地址1",
+        "value": 40,
+        "timestamp": 1772711339280
+      },
+      "t_test_int32_04": {
+        "id": "t_test_int32_04",
+        "name": "Test_Int32_4.2",
+        "type": "Int32",
+        "memaddress": "400000",
+        "address": "4.2",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Int32类型 - 从站4地址2",
+        "value": 123456889,
+        "timestamp": 1772711339280
+      },
+      "t_test_uint32_04": {
+        "id": "t_test_uint32_04",
+        "name": "Test_UInt32_4.4",
+        "type": "UInt32",
+        "memaddress": "400000",
+        "address": "4.4",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试UInt32类型 - 从站4地址4",
+        "value": 4000000300,
+        "timestamp": 1772711339280
+      },
+      "t_test_float32_04": {
+        "id": "t_test_float32_04",
+        "name": "Test_Float32_4.6",
+        "type": "Float32",
+        "memaddress": "400000",
+        "address": "4.6",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Float32类型 - 从站4地址6",
+        "value": 128.45599365234375,
+        "timestamp": 1772711339280
+      },
+      "t_test_float64_04": {
+        "id": "t_test_float64_04",
+        "name": "Test_Float64_4.8",
+        "type": "Float64",
+        "memaddress": "400000",
+        "address": "4.8",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Float64类型 - 从站4地址8",
+        "value": 5.0095360225532524e-306,
+        "timestamp": 1772711339280
+      },
+      "t_test_int64_04": {
+        "id": "t_test_int64_04",
+        "name": "Test_Int64_4.12",
+        "type": "Int64",
+        "memaddress": "400000",
+        "address": "4.12",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Int64类型 - 从站4地址12",
+        "value": 1000000001100,
+        "timestamp": 1772711339280
+      },
+      "t_test_int16le_04": {
+        "id": "t_test_int16le_04",
+        "name": "Test_Int16LE_4.16",
+        "type": "Int16LE",
+        "memaddress": "400000",
+        "address": "4.16",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Int16LE类型(小端) - 从站4地址16",
+        "value": 13845,
+        "timestamp": 1772711339280
+      },
+      "t_test_uint32le_04": {
+        "id": "t_test_uint32le_04",
+        "name": "Test_UInt32LE_4.17",
+        "type": "UInt32LE",
+        "memaddress": "400000",
+        "address": "4.17",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试UInt32LE类型(小端) - 从站4地址17",
+        "value": 4000001600,
+        "timestamp": 1772711339280
+      },
+      "t_test_float32le_04": {
+        "id": "t_test_float32le_04",
+        "name": "Test_Float32LE_4.19",
+        "type": "Float32LE",
+        "memaddress": "400000",
+        "address": "4.19",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Float32LE类型(小端) - 从站4地址19",
+        "value": 141.45599365234375,
+        "timestamp": 1772711339280
+      },
+      "t_test_float64le_04": {
+        "id": "t_test_float64le_04",
+        "name": "Test_Float64LE_4.21",
+        "type": "Float64LE",
+        "memaddress": "400000",
+        "address": "4.21",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Float64LE类型(小端) - 从站4地址21",
+        "value": 123476.789012345,
+        "timestamp": 1772711339280
+      },
+      "t_test_int64le_04": {
+        "id": "t_test_int64le_04",
+        "name": "Test_Int64LE_4.25",
+        "type": "Int64LE",
+        "memaddress": "400000",
+        "address": "4.25",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Int64LE类型(小端) - 从站4地址25",
+        "value": 1000000002400,
+        "timestamp": 1772711339280
+      },
+      "t_test_float64mle_04": {
+        "id": "t_test_float64mle_04",
+        "name": "Test_Float64MLE_4.29",
+        "type": "Float64MLE",
+        "memaddress": "400000",
+        "address": "4.29",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Float64MLE类型(Modbus序) - 从站4地址29",
+        "value": 1.3043374404216428e-126,
+        "timestamp": 1772711339280
+      },
+      "t_test_int32mle_04": {
+        "id": "t_test_int32mle_04",
+        "name": "Test_Int32MLE_4.33",
+        "type": "Int32MLE",
+        "memaddress": "400000",
+        "address": "4.33",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Int32MLE类型(Modbus序) - 从站4地址33",
+        "value": 123459989,
+        "timestamp": 1772711339280
+      },
+      "t_test_float32mle_04": {
+        "id": "t_test_float32mle_04",
+        "name": "Test_Float32MLE_4.35",
+        "type": "Float32MLE",
+        "memaddress": "400000",
+        "address": "4.35",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Float32MLE类型(Modbus序) - 从站4地址35",
+        "value": 157.45599365234375,
+        "timestamp": 1772711339280
+      },
+      "t_test_uint32mle_04": {
+        "id": "t_test_uint32mle_04",
+        "name": "Test_UInt32MLE_4.37",
+        "type": "UInt32MLE",
+        "memaddress": "400000",
+        "address": "4.37",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试UInt32MLE类型(Modbus序) - 从站4地址37",
+        "value": 4000003600,
+        "timestamp": 1772711339280
+      },
+      "t_test_int16_05": {
+        "id": "t_test_int16_05",
+        "name": "Test_Int16_5.1",
+        "type": "Int16",
+        "memaddress": "400000",
+        "address": "5.1",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Int16类型 - 从站5地址1",
+        "value": 54,
+        "timestamp": 1772711339280
+      },
+      "t_test_int32_05": {
+        "id": "t_test_int32_05",
+        "name": "Test_Int32_5.2",
+        "type": "Int32",
+        "memaddress": "400000",
+        "address": "5.2",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Int32类型 - 从站5地址2",
+        "value": 123456889,
+        "timestamp": 1772711339280
+      },
+      "t_test_uint32_05": {
+        "id": "t_test_uint32_05",
+        "name": "Test_UInt32_5.4",
+        "type": "UInt32",
+        "memaddress": "400000",
+        "address": "5.4",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试UInt32类型 - 从站5地址4",
+        "value": 4000000300,
+        "timestamp": 1772711339280
+      },
+      "t_test_float32_05": {
+        "id": "t_test_float32_05",
+        "name": "Test_Float32_5.6",
+        "type": "Float32",
+        "memaddress": "400000",
+        "address": "5.6",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Float32类型 - 从站5地址6",
+        "value": 128.45599365234375,
+        "timestamp": 1772711339280
+      },
+      "t_test_float64_05": {
+        "id": "t_test_float64_05",
+        "name": "Test_Float64_5.8",
+        "type": "Float64",
+        "memaddress": "400000",
+        "address": "5.8",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Float64类型 - 从站5地址8",
+        "value": 7.883001140939591e-306,
+        "timestamp": 1772711339280
+      },
+      "t_test_int64_05": {
+        "id": "t_test_int64_05",
+        "name": "Test_Int64_5.12",
+        "type": "Int64",
+        "memaddress": "400000",
+        "address": "5.12",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Int64类型 - 从站5地址12",
+        "value": 1000000001100,
+        "timestamp": 1772711339280
+      },
+      "t_test_int16le_05": {
+        "id": "t_test_int16le_05",
+        "name": "Test_Int16LE_5.16",
+        "type": "Int16LE",
+        "memaddress": "400000",
+        "address": "5.16",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Int16LE类型(小端) - 从站5地址16",
+        "value": 13845,
+        "timestamp": 1772711339280
+      },
+      "t_test_uint32le_05": {
+        "id": "t_test_uint32le_05",
+        "name": "Test_UInt32LE_5.17",
+        "type": "UInt32LE",
+        "memaddress": "400000",
+        "address": "5.17",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试UInt32LE类型(小端) - 从站5地址17",
+        "value": 4000001600,
+        "timestamp": 1772711339280
+      },
+      "t_test_float32le_05": {
+        "id": "t_test_float32le_05",
+        "name": "Test_Float32LE_5.19",
+        "type": "Float32LE",
+        "memaddress": "400000",
+        "address": "5.19",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Float32LE类型(小端) - 从站5地址19",
+        "value": 141.45599365234375,
+        "timestamp": 1772711339280
+      },
+      "t_test_float64le_05": {
+        "id": "t_test_float64le_05",
+        "name": "Test_Float64LE_5.21",
+        "type": "Float64LE",
+        "memaddress": "400000",
+        "address": "5.21",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Float64LE类型(小端) - 从站5地址21",
+        "value": 123476.789012345,
+        "timestamp": 1772711339280
+      },
+      "t_test_int64le_05": {
+        "id": "t_test_int64le_05",
+        "name": "Test_Int64LE_5.25",
+        "type": "Int64LE",
+        "memaddress": "400000",
+        "address": "5.25",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Int64LE类型(小端) - 从站5地址25",
+        "value": 1000000002400,
+        "timestamp": 1772711339280
+      },
+      "t_test_float64mle_05": {
+        "id": "t_test_float64mle_05",
+        "name": "Test_Float64MLE_5.29",
+        "type": "Float64MLE",
+        "memaddress": "400000",
+        "address": "5.29",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Float64MLE类型(Modbus序) - 从站5地址29",
+        "value": 1.3043374404216428e-126,
+        "timestamp": 1772711339280
+      },
+      "t_test_int32mle_05": {
+        "id": "t_test_int32mle_05",
+        "name": "Test_Int32MLE_5.33",
+        "type": "Int32MLE",
+        "memaddress": "400000",
+        "address": "5.33",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Int32MLE类型(Modbus序) - 从站5地址33",
+        "value": 123459989,
+        "timestamp": 1772711339280
+      },
+      "t_test_float32mle_05": {
+        "id": "t_test_float32mle_05",
+        "name": "Test_Float32MLE_5.35",
+        "type": "Float32MLE",
+        "memaddress": "400000",
+        "address": "5.35",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试Float32MLE类型(Modbus序) - 从站5地址35",
+        "value": 157.45599365234375,
+        "timestamp": 1772711339280
+      },
+      "t_test_uint32mle_05": {
+        "id": "t_test_uint32mle_05",
+        "name": "Test_UInt32MLE_5.37",
+        "type": "UInt32MLE",
+        "memaddress": "400000",
+        "address": "5.37",
+        "divisor": null,
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试UInt32MLE类型(Modbus序) - 从站5地址37",
+        "value": 4000003600,
+        "timestamp": 1772711339280
+      },
+      "t_coil_1.1": {
+        "id": "t_coil_1.1",
+        "name": "Coil_1.1",
+        "type": "Bool",
+        "memaddress": "000000",
+        "address": "1.1",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Coil Status 类型 - 从站1地址1"
+      },
+      "t_coil_1.2": {
+        "id": "t_coil_1.2",
+        "name": "Coil_1.2",
+        "type": "Bool",
+        "memaddress": "000001",
+        "address": "1.2",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Coil Status 类型 - 从站1地址2"
+      },
+      "t_coil_1.3": {
+        "id": "t_coil_1.3",
+        "name": "Coil_1.3",
+        "type": "Bool",
+        "memaddress": "000002",
+        "address": "1.3",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Coil Status 类型 - 从站1地址3"
+      },
+      "t_coil_1.4": {
+        "id": "t_coil_1.4",
+        "name": "Coil_1.4",
+        "type": "Bool",
+        "memaddress": "000003",
+        "address": "1.4",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Coil Status 类型 - 从站1地址4"
+      },
+      "t_coil_1.5": {
+        "id": "t_coil_1.5",
+        "name": "Coil_1.5",
+        "type": "Bool",
+        "memaddress": "000004",
+        "address": "1.5",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Coil Status 类型 - 从站1地址5"
+      },
+      "t_coil_2.1": {
+        "id": "t_coil_2.1",
+        "name": "Coil_2.1",
+        "type": "Bool",
+        "memaddress": "000000",
+        "address": "2.1",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Coil Status 类型 - 从站2地址1"
+      },
+      "t_coil_2.2": {
+        "id": "t_coil_2.2",
+        "name": "Coil_2.2",
+        "type": "Bool",
+        "memaddress": "000001",
+        "address": "2.2",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Coil Status 类型 - 从站2地址2"
+      },
+      "t_coil_2.3": {
+        "id": "t_coil_2.3",
+        "name": "Coil_2.3",
+        "type": "Bool",
+        "memaddress": "000002",
+        "address": "2.3",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Coil Status 类型 - 从站2地址3"
+      },
+      "t_coil_2.4": {
+        "id": "t_coil_2.4",
+        "name": "Coil_2.4",
+        "type": "Bool",
+        "memaddress": "000003",
+        "address": "2.4",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Coil Status 类型 - 从站2地址4"
+      },
+      "t_coil_2.5": {
+        "id": "t_coil_2.5",
+        "name": "Coil_2.5",
+        "type": "Bool",
+        "memaddress": "000004",
+        "address": "2.5",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Coil Status 类型 - 从站2地址5"
+      },
+      "t_coil_3.1": {
+        "id": "t_coil_3.1",
+        "name": "Coil_3.1",
+        "type": "Bool",
+        "memaddress": "000000",
+        "address": "3.1",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Coil Status 类型 - 从站3地址1"
+      },
+      "t_coil_3.2": {
+        "id": "t_coil_3.2",
+        "name": "Coil_3.2",
+        "type": "Bool",
+        "memaddress": "000001",
+        "address": "3.2",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Coil Status 类型 - 从站3地址2"
+      },
+      "t_coil_3.3": {
+        "id": "t_coil_3.3",
+        "name": "Coil_3.3",
+        "type": "Bool",
+        "memaddress": "000002",
+        "address": "3.3",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Coil Status 类型 - 从站3地址3"
+      },
+      "t_coil_3.4": {
+        "id": "t_coil_3.4",
+        "name": "Coil_3.4",
+        "type": "Bool",
+        "memaddress": "000003",
+        "address": "3.4",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Coil Status 类型 - 从站3地址4"
+      },
+      "t_coil_3.5": {
+        "id": "t_coil_3.5",
+        "name": "Coil_3.5",
+        "type": "Bool",
+        "memaddress": "000004",
+        "address": "3.5",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Coil Status 类型 - 从站3地址5"
+      },
+      "t_coil_4.1": {
+        "id": "t_coil_4.1",
+        "name": "Coil_4.1",
+        "type": "Bool",
+        "memaddress": "000000",
+        "address": "4.1",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Coil Status 类型 - 从站4地址1"
+      },
+      "t_coil_4.2": {
+        "id": "t_coil_4.2",
+        "name": "Coil_4.2",
+        "type": "Bool",
+        "memaddress": "000001",
+        "address": "4.2",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Coil Status 类型 - 从站4地址2"
+      },
+      "t_coil_4.3": {
+        "id": "t_coil_4.3",
+        "name": "Coil_4.3",
+        "type": "Bool",
+        "memaddress": "000002",
+        "address": "4.3",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Coil Status 类型 - 从站4地址3"
+      },
+      "t_coil_4.4": {
+        "id": "t_coil_4.4",
+        "name": "Coil_4.4",
+        "type": "Bool",
+        "memaddress": "000003",
+        "address": "4.4",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Coil Status 类型 - 从站4地址4"
+      },
+      "t_coil_4.5": {
+        "id": "t_coil_4.5",
+        "name": "Coil_4.5",
+        "type": "Bool",
+        "memaddress": "000004",
+        "address": "4.5",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Coil Status 类型 - 从站4地址5"
+      },
+      "t_coil_5.1": {
+        "id": "t_coil_5.1",
+        "name": "Coil_5.1",
+        "type": "Bool",
+        "memaddress": "000000",
+        "address": "5.1",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Coil Status 类型 - 从站5地址1"
+      },
+      "t_coil_5.2": {
+        "id": "t_coil_5.2",
+        "name": "Coil_5.2",
+        "type": "Bool",
+        "memaddress": "000001",
+        "address": "5.2",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Coil Status 类型 - 从站5地址2"
+      },
+      "t_coil_5.3": {
+        "id": "t_coil_5.3",
+        "name": "Coil_5.3",
+        "type": "Bool",
+        "memaddress": "000002",
+        "address": "5.3",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Coil Status 类型 - 从站5地址3"
+      },
+      "t_coil_5.4": {
+        "id": "t_coil_5.4",
+        "name": "Coil_5.4",
+        "type": "Bool",
+        "memaddress": "000003",
+        "address": "5.4",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Coil Status 类型 - 从站5地址4"
+      },
+      "t_coil_5.5": {
+        "id": "t_coil_5.5",
+        "name": "Coil_5.5",
+        "type": "Bool",
+        "memaddress": "000004",
+        "address": "5.5",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Coil Status 类型 - 从站5地址5"
+      },
+      "t_input_1.1": {
+        "id": "t_input_1.1",
+        "name": "Input_1.1",
+        "type": "Bool",
+        "memaddress": "100000",
+        "address": "1.1",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Digital Inputs 类型 - 从站1地址1"
+      },
+      "t_input_1.2": {
+        "id": "t_input_1.2",
+        "name": "Input_1.2",
+        "type": "Bool",
+        "memaddress": "100001",
+        "address": "1.2",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Digital Inputs 类型 - 从站1地址2"
+      },
+      "t_input_1.3": {
+        "id": "t_input_1.3",
+        "name": "Input_1.3",
+        "type": "Bool",
+        "memaddress": "100002",
+        "address": "1.3",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Digital Inputs 类型 - 从站1地址3"
+      },
+      "t_input_1.4": {
+        "id": "t_input_1.4",
+        "name": "Input_1.4",
+        "type": "Bool",
+        "memaddress": "100003",
+        "address": "1.4",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Digital Inputs 类型 - 从站1地址4"
+      },
+      "t_input_1.5": {
+        "id": "t_input_1.5",
+        "name": "Input_1.5",
+        "type": "Bool",
+        "memaddress": "100004",
+        "address": "1.5",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Digital Inputs 类型 - 从站1地址5"
+      },
+      "t_input_2.1": {
+        "id": "t_input_2.1",
+        "name": "Input_2.1",
+        "type": "Bool",
+        "memaddress": "100000",
+        "address": "2.1",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Digital Inputs 类型 - 从站2地址1"
+      },
+      "t_input_2.2": {
+        "id": "t_input_2.2",
+        "name": "Input_2.2",
+        "type": "Bool",
+        "memaddress": "100001",
+        "address": "2.2",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Digital Inputs 类型 - 从站2地址2"
+      },
+      "t_input_2.3": {
+        "id": "t_input_2.3",
+        "name": "Input_2.3",
+        "type": "Bool",
+        "memaddress": "100002",
+        "address": "2.3",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Digital Inputs 类型 - 从站2地址3"
+      },
+      "t_input_2.4": {
+        "id": "t_input_2.4",
+        "name": "Input_2.4",
+        "type": "Bool",
+        "memaddress": "100003",
+        "address": "2.4",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Digital Inputs 类型 - 从站2地址4"
+      },
+      "t_input_2.5": {
+        "id": "t_input_2.5",
+        "name": "Input_2.5",
+        "type": "Bool",
+        "memaddress": "100004",
+        "address": "2.5",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Digital Inputs 类型 - 从站2地址5"
+      },
+      "t_input_3.1": {
+        "id": "t_input_3.1",
+        "name": "Input_3.1",
+        "type": "Bool",
+        "memaddress": "100000",
+        "address": "3.1",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Digital Inputs 类型 - 从站3地址1"
+      },
+      "t_input_3.2": {
+        "id": "t_input_3.2",
+        "name": "Input_3.2",
+        "type": "Bool",
+        "memaddress": "100001",
+        "address": "3.2",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Digital Inputs 类型 - 从站3地址2"
+      },
+      "t_input_3.3": {
+        "id": "t_input_3.3",
+        "name": "Input_3.3",
+        "type": "Bool",
+        "memaddress": "100002",
+        "address": "3.3",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Digital Inputs 类型 - 从站3地址3"
+      },
+      "t_input_3.4": {
+        "id": "t_input_3.4",
+        "name": "Input_3.4",
+        "type": "Bool",
+        "memaddress": "100003",
+        "address": "3.4",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Digital Inputs 类型 - 从站3地址4"
+      },
+      "t_input_3.5": {
+        "id": "t_input_3.5",
+        "name": "Input_3.5",
+        "type": "Bool",
+        "memaddress": "100004",
+        "address": "3.5",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Digital Inputs 类型 - 从站3地址5"
+      },
+      "t_input_4.1": {
+        "id": "t_input_4.1",
+        "name": "Input_4.1",
+        "type": "Bool",
+        "memaddress": "100000",
+        "address": "4.1",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Digital Inputs 类型 - 从站4地址1"
+      },
+      "t_input_4.2": {
+        "id": "t_input_4.2",
+        "name": "Input_4.2",
+        "type": "Bool",
+        "memaddress": "100001",
+        "address": "4.2",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Digital Inputs 类型 - 从站4地址2"
+      },
+      "t_input_4.3": {
+        "id": "t_input_4.3",
+        "name": "Input_4.3",
+        "type": "Bool",
+        "memaddress": "100002",
+        "address": "4.3",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Digital Inputs 类型 - 从站4地址3"
+      },
+      "t_input_4.4": {
+        "id": "t_input_4.4",
+        "name": "Input_4.4",
+        "type": "Bool",
+        "memaddress": "100003",
+        "address": "4.4",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Digital Inputs 类型 - 从站4地址4"
+      },
+      "t_input_4.5": {
+        "id": "t_input_4.5",
+        "name": "Input_4.5",
+        "type": "Bool",
+        "memaddress": "100004",
+        "address": "4.5",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Digital Inputs 类型 - 从站4地址5"
+      },
+      "t_input_5.1": {
+        "id": "t_input_5.1",
+        "name": "Input_5.1",
+        "type": "Bool",
+        "memaddress": "100000",
+        "address": "5.1",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Digital Inputs 类型 - 从站5地址1"
+      },
+      "t_input_5.2": {
+        "id": "t_input_5.2",
+        "name": "Input_5.2",
+        "type": "Bool",
+        "memaddress": "100001",
+        "address": "5.2",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Digital Inputs 类型 - 从站5地址2"
+      },
+      "t_input_5.3": {
+        "id": "t_input_5.3",
+        "name": "Input_5.3",
+        "type": "Bool",
+        "memaddress": "100002",
+        "address": "5.3",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Digital Inputs 类型 - 从站5地址3"
+      },
+      "t_input_5.4": {
+        "id": "t_input_5.4",
+        "name": "Input_5.4",
+        "type": "Bool",
+        "memaddress": "100003",
+        "address": "5.4",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Digital Inputs 类型 - 从站5地址4"
+      },
+      "t_input_5.5": {
+        "id": "t_input_5.5",
+        "name": "Input_5.5",
+        "type": "Bool",
+        "memaddress": "100004",
+        "address": "5.5",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Digital Inputs 类型 - 从站5地址5"
+      },
+      "t_inputreg_1.1": {
+        "id": "t_inputreg_1.1",
+        "name": "InputReg_1.1",
+        "type": "Int16",
+        "memaddress": "300000",
+        "address": "1.1",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Input Registers 类型 - 从站1地址1"
+      },
+      "t_inputreg_1.2": {
+        "id": "t_inputreg_1.2",
+        "name": "InputReg_1.2",
+        "type": "Int32",
+        "memaddress": "300000",
+        "address": "1.2",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Input Registers 类型 - 从站1地址2"
+      },
+      "t_inputreg_1.3": {
+        "id": "t_inputreg_1.3",
+        "name": "InputReg_1.3",
+        "type": "Float32",
+        "memaddress": "300000",
+        "address": "1.3",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Input Registers 类型 - 从站1地址3"
+      },
+      "t_inputreg_1.4": {
+        "id": "t_inputreg_1.4",
+        "name": "InputReg_1.4",
+        "type": "UInt32",
+        "memaddress": "300000",
+        "address": "1.4",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Input Registers 类型 - 从站1地址4"
+      },
+      "t_inputreg_1.5": {
+        "id": "t_inputreg_1.5",
+        "name": "InputReg_1.5",
+        "type": "Float64",
+        "memaddress": "300000",
+        "address": "1.5",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Input Registers 类型 - 从站1地址5"
+      },
+      "t_inputreg_2.1": {
+        "id": "t_inputreg_2.1",
+        "name": "InputReg_2.1",
+        "type": "Int16",
+        "memaddress": "300000",
+        "address": "2.1",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Input Registers 类型 - 从站2地址1"
+      },
+      "t_inputreg_2.2": {
+        "id": "t_inputreg_2.2",
+        "name": "InputReg_2.2",
+        "type": "Int32",
+        "memaddress": "300000",
+        "address": "2.2",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Input Registers 类型 - 从站2地址2"
+      },
+      "t_inputreg_2.3": {
+        "id": "t_inputreg_2.3",
+        "name": "InputReg_2.3",
+        "type": "Float32",
+        "memaddress": "300000",
+        "address": "2.3",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Input Registers 类型 - 从站2地址3"
+      },
+      "t_inputreg_2.4": {
+        "id": "t_inputreg_2.4",
+        "name": "InputReg_2.4",
+        "type": "UInt32",
+        "memaddress": "300000",
+        "address": "2.4",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Input Registers 类型 - 从站2地址4"
+      },
+      "t_inputreg_2.5": {
+        "id": "t_inputreg_2.5",
+        "name": "InputReg_2.5",
+        "type": "Float64",
+        "memaddress": "300000",
+        "address": "2.5",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Input Registers 类型 - 从站2地址5"
+      },
+      "t_inputreg_3.1": {
+        "id": "t_inputreg_3.1",
+        "name": "InputReg_3.1",
+        "type": "Int16",
+        "memaddress": "300000",
+        "address": "3.1",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Input Registers 类型 - 从站3地址1"
+      },
+      "t_inputreg_3.2": {
+        "id": "t_inputreg_3.2",
+        "name": "InputReg_3.2",
+        "type": "Int32",
+        "memaddress": "300000",
+        "address": "3.2",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Input Registers 类型 - 从站3地址2"
+      },
+      "t_inputreg_3.3": {
+        "id": "t_inputreg_3.3",
+        "name": "InputReg_3.3",
+        "type": "Float32",
+        "memaddress": "300000",
+        "address": "3.3",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Input Registers 类型 - 从站3地址3"
+      },
+      "t_inputreg_3.4": {
+        "id": "t_inputreg_3.4",
+        "name": "InputReg_3.4",
+        "type": "UInt32",
+        "memaddress": "300000",
+        "address": "3.4",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Input Registers 类型 - 从站3地址4"
+      },
+      "t_inputreg_3.5": {
+        "id": "t_inputreg_3.5",
+        "name": "InputReg_3.5",
+        "type": "Float64",
+        "memaddress": "300000",
+        "address": "3.5",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Input Registers 类型 - 从站3地址5"
+      },
+      "t_inputreg_4.1": {
+        "id": "t_inputreg_4.1",
+        "name": "InputReg_4.1",
+        "type": "Int16",
+        "memaddress": "300000",
+        "address": "4.1",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Input Registers 类型 - 从站4地址1"
+      },
+      "t_inputreg_4.2": {
+        "id": "t_inputreg_4.2",
+        "name": "InputReg_4.2",
+        "type": "Int32",
+        "memaddress": "300000",
+        "address": "4.2",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Input Registers 类型 - 从站4地址2"
+      },
+      "t_inputreg_4.3": {
+        "id": "t_inputreg_4.3",
+        "name": "InputReg_4.3",
+        "type": "Float32",
+        "memaddress": "300000",
+        "address": "4.3",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Input Registers 类型 - 从站4地址3"
+      },
+      "t_inputreg_4.4": {
+        "id": "t_inputreg_4.4",
+        "name": "InputReg_4.4",
+        "type": "UInt32",
+        "memaddress": "300000",
+        "address": "4.4",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Input Registers 类型 - 从站4地址4"
+      },
+      "t_inputreg_4.5": {
+        "id": "t_inputreg_4.5",
+        "name": "InputReg_4.5",
+        "type": "Float64",
+        "memaddress": "300000",
+        "address": "4.5",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Input Registers 类型 - 从站4地址5"
+      },
+      "t_inputreg_5.1": {
+        "id": "t_inputreg_5.1",
+        "name": "InputReg_5.1",
+        "type": "Int16",
+        "memaddress": "300000",
+        "address": "5.1",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Input Registers 类型 - 从站5地址1"
+      },
+      "t_inputreg_5.2": {
+        "id": "t_inputreg_5.2",
+        "name": "InputReg_5.2",
+        "type": "Int32",
+        "memaddress": "300000",
+        "address": "5.2",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Input Registers 类型 - 从站5地址2"
+      },
+      "t_inputreg_5.3": {
+        "id": "t_inputreg_5.3",
+        "name": "InputReg_5.3",
+        "type": "Float32",
+        "memaddress": "300000",
+        "address": "5.3",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Input Registers 类型 - 从站5地址3"
+      },
+      "t_inputreg_5.4": {
+        "id": "t_inputreg_5.4",
+        "name": "InputReg_5.4",
+        "type": "UInt32",
+        "memaddress": "300000",
+        "address": "5.4",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Input Registers 类型 - 从站5地址4"
+      },
+      "t_inputreg_5.5": {
+        "id": "t_inputreg_5.5",
+        "name": "InputReg_5.5",
+        "type": "Float64",
+        "memaddress": "300000",
+        "address": "5.5",
+        "daq": {
+          "enabled": false,
+          "interval": 60,
+          "changed": false,
+          "restored": false
+        },
+        "description": "测试 Input Registers 类型 - 从站5地址5"
+      }
+    },
+    "sharedDevices": {
+      "COM20": [
+        "d_6f04d20e-9f144241",
+        "d_6f04d20e-9f144241"
+      ]
+    }
+  }
+]
